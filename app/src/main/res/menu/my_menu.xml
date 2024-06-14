@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.demo.ScrollingActivity" >
+
+
+    <item
+        android:id="@+id/scroll_option"
+        android:orderInCategory="100"
+        android:title="Scroll Images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/youtube_option"
+        android:orderInCategory="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="YouTube Tips"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share_option"
+        android:orderInCategory="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Share Preferences"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cardView_option"
+        android:orderInCategory="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Card View"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/emailSms_option"
+        android:orderInCategory="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Email and SMS"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/travelList_option"
+        android:orderInCategory="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Travel List"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/travelImageList_option"
+        android:orderInCategory="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Travel Image List"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/travelViewFlipper_option"
+        android:orderInCategory="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Travel View Flipper"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/calculator_option"
+        android:orderInCategory="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Calculator"
+        app:showAsAction="never" />
+
+
+</menu>

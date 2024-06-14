@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "801794295389",
+    "project_id": "mobile-assignment-1-53203",
+    "storage_bucket": "mobile-assignment-1-53203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801794295389:android:64098eea63768741a4afb4",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-ULsU9fgf9LJfIGTc-QLPs29odEpYlt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

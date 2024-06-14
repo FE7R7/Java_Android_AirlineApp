@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context=".Screen5_Fill_In">
+
+
+    <!-- ================================================== -->
+
+
+    <!-- ================================================== -->
+
+
+    <TextView
+        android:id="@+id/textView7_1"
+        android:layout_width="217dp"
+        android:layout_height="35dp"
+        android:text="Powered by Fly Airlines"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="134dp"
+        android:layout_height="57dp"
+        android:text="Back"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="307dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:maxLength="20"
+        android:textColor="#747474"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:counterMaxLength="20"
+        app:endIconMode="password_toggle"
+        app:helperText="+Required"
+        app:helperTextTextColor="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366"
+        app:startIconDrawable="@drawable/lock">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etx2s7"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="#FAF7F7"
+            android:hint="Expiration date"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:textStyle="bold"
+            app:counterEnabled="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/b7_1"
+        android:layout_width="134dp"
+        android:layout_height="57dp"
+        android:text="Pay"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Check Out"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="307dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:maxLength="20"
+        android:textColor="#747474"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:counterMaxLength="20"
+        app:endIconMode="password_toggle"
+        app:helperText="+Required"
+        app:helperTextTextColor="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51"
+        app:startIconDrawable="@drawable/lock">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etx3s7"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="#FAF7F7"
+            android:hint="CVV"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:textStyle="bold"
+            app:counterEnabled="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView7_3"
+        android:layout_width="98dp"
+        android:layout_height="43dp"
+        android:text="TOTAL:"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout"
+        android:layout_width="307dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:maxLength="20"
+        android:textColor="#747474"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:counterMaxLength="20"
+        app:helperText="+Required"
+        app:helperTextTextColor="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.216"
+        app:startIconDrawable="@drawable/person">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etx1s7"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="#FAF7F7"
+            android:hint="Card Number"
+            android:maxLength="20"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etx4s7"
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:background="#FAF7F7"
+        android:hint=" €"
+        android:textColor="#808080"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

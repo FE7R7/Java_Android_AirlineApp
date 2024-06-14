@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/bg2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context="com.example.demo.Screen2_From_To">
+
+    <TextView
+        android:id="@+id/textView2_5"
+        android:layout_width="217dp"
+        android:layout_height="35dp"
+        android:text="Powered by Fly Airlines"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="386dp"
+        android:layout_height="64dp"
+        android:text="Please, choose your flight:"
+        android:textColor="#FBF7F7"
+        android:textColorHint="#E91E63"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <ImageView
+        android:id="@+id/img2_1"
+        android:layout_width="254dp"
+        android:layout_height="108dp"
+        android:contentDescription="ImageToClick"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757"
+        app:srcCompat="@drawable/connecting"
+        app:tint="#F44336" />
+
+    <TextView
+        android:id="@+id/textView2_4"
+        android:layout_width="91dp"
+        android:layout_height="49dp"
+        android:text="Here"
+        android:textAlignment="center"
+        android:textColor="#FBF7F7"
+        android:textColorHint="#E91E63"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <TextView
+        android:id="@+id/textView2_3"
+        android:layout_width="88dp"
+        android:layout_height="43dp"
+        android:text="Click"
+        android:textAlignment="center"
+        android:textColor="#FBF7F7"
+        android:textColorHint="#E91E63"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699" />
+
+    <TextView
+        android:id="@+id/textView2_2"
+        android:layout_width="47dp"
+        android:layout_height="34dp"
+        android:text="To:"
+        android:textColor="#FBF7F7"
+        android:textColorHint="#E91E63"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.598"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="165dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313">
+
+        <RadioButton
+            android:id="@+id/radioButton2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Dublin"
+            android:textColor="#FBF7F7"
+            android:textColorHint="#E91E63"
+            android:textSize="17sp"
+            app:buttonTint="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Italy"
+            android:textColor="#FBF7F7"
+            android:textColorHint="#E91E63"
+            android:textSize="17sp"
+            app:buttonTint="@color/white" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2_1"
+        android:layout_width="70dp"
+        android:layout_height="34dp"
+        android:text="From:"
+        android:textColor="#FBF7F7"
+        android:textColorHint="#E91E63"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2_1"
+        android:layout_width="165dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313">
+
+        <RadioButton
+            android:id="@+id/radioButton2_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Netherlands"
+            android:textColor="#FBF7F7"
+            android:textColorHint="#E91E63"
+            android:textSize="17sp"
+            app:buttonTint="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton2_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Switzerland"
+            android:textColor="#FBF7F7"
+            android:textColorHint="#E91E63"
+            android:textSize="17sp"
+            app:buttonTint="@color/white" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2_2"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioButton
+            android:id="@+id/radioButton2_3_1"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="One-Way"
+            android:textColor="#FBF7F7"
+            android:textColorHint="#E91E63"
+            android:textSize="17sp"
+            app:buttonTint="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton2_3_2"
+            android:layout_width="139dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="Round-Trip"
+            android:textColor="#FBF7F7"
+            android:textColorHint="#E91E63"
+            android:textSize="17sp"
+            app:buttonTint="@color/white" />
+
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
