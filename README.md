@@ -12,15 +12,22 @@ Progressbar / Vector Asset / Radiobuttons / Button / ImageView / EditText / Text
 
 Please, also find bellow some videos demonstrating the application and its featues in action:
 
- Android_Java_Project_1.mp4
+
+
+https://github.com/FE7R7/JAVA_ANDROID_AirlineApp/assets/147453330/0fa1b1e2-2de2-4f34-8db2-53154e633a05
+
 
 -----------------------------------------//-----------------------------------------
 
- Android_Java_Project_2.mp4 
+
+https://github.com/FE7R7/JAVA_ANDROID_AirlineApp/assets/147453330/e6167835-e922-431c-87af-63803af5dbd8
+
 
 -----------------------------------------//-----------------------------------------
 
- Android_Java_Project_3.mp4 
+
+https://github.com/FE7R7/JAVA_ANDROID_AirlineApp/assets/147453330/035707c3-88f4-4068-a3fa-e30e9475ef28
+
 
 -----------------------------------------//-----------------------------------------
 
